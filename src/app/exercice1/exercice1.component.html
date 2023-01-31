@@ -1,0 +1,11 @@
+<div class="mb-20">
+    <h1>Premier exercice</h1>
+    <p>Rentrer votre nom pour le voir à l'envers</p>
+    <!--  un sur un attribut avec []  -->
+    <!-- un autre sur un evement avec ()  -->
+    <!-- ($any) désactive le contrôle de type  -->
+    <input [value]="nom" (input)="nom=$any($event.target).value" />
+    <!-- le dernier avec une interpolation de variable {{ }} -->
+    <p>{{reverseString(nom)}}</p>
+
+</div>

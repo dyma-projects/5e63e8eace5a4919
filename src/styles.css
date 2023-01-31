@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+.container {
+  height: 100px;
+  display: block;
+  margin: auto;
+  padding: 20px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-20 {
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #3498d8;
+  color: white;
+  text-decoration: none;
+  padding: 10px 40px;
+  border-radius: 5px;
+  border-bottom: 5px solid #2980b9;
+  text-shadow: 0px -2px #2980b9;
+  transition: all 0.4s;
+  float: left;
+}
+
+.btn:active {
+  transform: translate(0, 5px);
+  border-bottom: 1px solid #2980b9;
+}
